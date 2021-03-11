@@ -10,16 +10,30 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:yoink.helloWorld"
+    "onCommand:yoink.addToYoink"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "yoink.helloWorld",
-        "title": "Hello World"
+        "command": "yoink.addToYoink",
+        "title": "Add to Yoink"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "yoink.addToYoink",
+          "when": "isFileSystemResource"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "yoink.addToYoink",
+          "when": "isFileSystemResource"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -41,5 +55,8 @@
     "mocha": "^8.2.1",
     "typescript": "^4.1.3",
     "vscode-test": "^1.5.0"
+  },
+  "dependencies": {
+    "spawn-tag": "^1.0.0"
   }
 }
