@@ -1,70 +1,55 @@
-# yoink README
+# Yoink for VS Code
 
-This is the README for your extension "yoink". After writing up a brief description, we recommend including the following sections.
+This extension adds an “Add to Yoink” action to the context menu of the file tree and to the command palette when in an editor.
+
+This extension is not affilliated with Yoink, Eternal Storms, or Matthias Gansrigler.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- “Add to Yoink” action in Command Palette
+- “Add to Yoink” item in the Explorer’s context menus
 
-For example if there is an image subfolder under your extension project workspace:
+![demo screenshot](images/screenshot.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Note: these actions are only available for local files. It wouldn’t make sense to add remote files to Yoink!
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+You have to have [Yoink for Mac](https://eternalstorms.at/yoink/mac/) installed and running. You can use the free trial, purchase it [through the Mac App Store](https://itunes.apple.com/app/yoink/id457622435?mt=12&at=1001l8pT&ct=website), or get it as part of [the Setapp subscription app service](https://go.setapp.com/invite/p5y3tgyl).
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+If Yoink is not running, the first time you run “Add to Yoink” will only launch Yoink, and won’t add the file to Yoink.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+<!-- changelog-start -->
 
 ### 1.0.0
 
-Initial release of ...
+Initial release
 
-### 1.0.1
+<!-- changelog-end -->
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
+<!--
 ## Following extension guidelines
 
 Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
 ## Working with Markdown
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
+- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
+- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
 ### For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+-->

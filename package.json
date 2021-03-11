@@ -1,8 +1,9 @@
 {
   "name": "yoink",
-  "displayName": "Yoink",
+  "displayName": "Yoink for VS Code",
   "description": "Yoink integration for VS Code",
   "version": "1.0.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.54.0"
   },
