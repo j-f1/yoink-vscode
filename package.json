@@ -1,5 +1,5 @@
 {
-  "name": "yoink",
+  "name": "yoink-for-vscode",
   "displayName": "Yoink for VS Code",
   "description": "Yoink integration for VS Code",
   "version": "1.0.0",
@@ -37,7 +37,8 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "npm run compile && npm run update-readme",
+    "update-readme": "node update-readme.mjs",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",

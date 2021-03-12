@@ -27,7 +27,7 @@ If Yoink is not running, the first time you run “Add to Yoink” will only lau
 
 ### 1.0.0
 
-Initial release
+- Initial release
 
 <!-- changelog-end -->
 
