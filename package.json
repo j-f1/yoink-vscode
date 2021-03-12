@@ -5,6 +5,16 @@
   "version": "1.0.0",
   "license": "MIT",
   "publisher": "j-f1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-f1/yoink-vscode.git"
+  },
+  "keywords": [],
+  "author": "Jed Fox <git@jedfox.com>",
+  "bugs": {
+    "url": "https://github.com/j-f1/yoink-vscode/issues"
+  },
+  "homepage": "https://github.com/j-f1/yoink-vscode#readme",
   "engines": {
     "vscode": "^1.54.0"
   },
