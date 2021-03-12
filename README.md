@@ -1,5 +1,8 @@
 # Yoink for VS Code
 
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/j-f1.yoink-for-vscode)](https://marketplace.visualstudio.com/items?itemName=j-f1.yoink-for-vscode)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/i/j-f1.yoink-for-vscode)](https://marketplace.visualstudio.com/items?itemName=j-f1.yoink-for-vscode)
+
 This extension adds an “Add to Yoink” action to the context menu of the file tree and to the command palette when in an editor.
 
 This extension is not affilliated with Yoink, Eternal Storms, or Matthias Gansrigler.
